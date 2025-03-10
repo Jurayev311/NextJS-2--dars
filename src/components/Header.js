@@ -7,7 +7,7 @@ const Header = () => {
     <header className='bg-white shadow-md'>
       <div className='container mx-auto max-w-[1380px]'>
         <nav className='flex items-center justify-between h-14'>
-          <ul className='flex items-center gap-6 text-[17px]'>
+          <ul className='flex items-center gap-6 text-[17px] text-black'>
             <Link href={'/'}>
               <li className='relative cursor-pointer transition-all duration-300 ease-in-out hover:text-blue-500 after:content-[" "] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full'>
                 Home

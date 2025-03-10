@@ -24,9 +24,9 @@ const Header = () => {
               </li>
             </Link>
           </ul>
-          <div className='cursor-pointer text-[24px] transition-all duration-300 ease-in-out hover:text-blue-500 hover:scale-110'>
+          <div className='cursor-pointer text-[24px] transition-all duration-300 ease-in-out hover:scale-110'>
             <Link href={'/dashboard'}>
-              <TbLayoutDashboardFilled className='text-black'/>
+              <TbLayoutDashboardFilled className='text-black hover:text-blue-500'/>
             </Link>
           </div>
         </nav>

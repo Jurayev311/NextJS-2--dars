@@ -26,7 +26,7 @@ const Header = () => {
           </ul>
           <div className='cursor-pointer text-[24px] transition-all duration-300 ease-in-out hover:text-blue-500 hover:scale-110'>
             <Link href={'/dashboard'}>
-              <TbLayoutDashboardFilled />
+              <TbLayoutDashboardFilled className='text-black'/>
             </Link>
           </div>
         </nav>
